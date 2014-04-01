@@ -1,0 +1,11 @@
+{
+	"extensions":
+	[
+		"js",
+		"htc",
+		"jsx"
+	],
+	// Sets the colors used within the text area
+    // "color_scheme": "Packages/Neon Color Scheme/Neon.tmTheme",
+	"color_scheme": "Packages/User/JS-Dark.tmTheme"
+}
