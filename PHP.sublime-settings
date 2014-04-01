@@ -1,0 +1,100 @@
+{
+    // The number of spaces a tab is considered equal to
+    "tab_size": 4,
+
+    // Extensions supported
+    "extensions":
+    [
+        "php",
+        "inc",
+        "hphp",
+        "php4",
+        "php5",
+        "phtml"
+    ],
+
+    // Sets the colors used within the text area
+    "color_scheme": "Packages/User/PHP-Dark.tmTheme",
+
+    // When disabled, tab will only trigger snippets or insert a tab.
+    // Shift+tab can be used to insert an explicit tab when tab_completion is
+    // enabled.
+    "tab_completion": true,
+
+    // Note that the font_face and font_size are overriden in the platform
+    // specific settings file, for example, "Preferences (Linux).sublime-settings".
+    // Because of this, setting them here will have no effect: you must set them
+    // in your User File Preferences.
+    "font_face": "Consolas",
+    "font_size": 8.0,
+
+    // Valid options are "no_bold", "no_italic", "no_antialias", "gray_antialias",
+    // "subpixel_antialias", "no_round" (OS X only) and "directwrite" (Windows only)
+    "font_options":
+    [
+        "directwrite"
+    ],
+
+    // The encoding to use when the encoding can't be determined automatically.
+    // ASCII, UTF-8 and UTF-16 encodings will be automatically detected.
+    "fallback_encoding": "Western (Windows 1252)",
+
+    // Encoding used when saving new files, and files opened with an undefined
+    // encoding (e.g., plain ascii files). If a file is opened with a specific
+    // encoding (either detected or given explicitly), this setting will be
+    // ignored, and the file will be saved with the encoding it was opened
+    // with.
+    "default_encoding": "UTF-8",
+
+    // If translate_tabs_to_spaces is true, use_tab_stops will make tab and
+    // backspace insert/delete up to the next tabstop
+    "use_tab_stops": true,
+
+    // Set to false to disable detection of tabs vs. spaces on load
+    "detect_indentation": true,
+
+    // Calculates indentation automatically when pressing enter
+    "auto_indent": true,
+
+    // Makes auto indent a little smarter, e.g., by indenting the next line
+    // after an if statement in C. Requires auto_indent to be enabled.
+    "smart_indent": true,
+
+    // Adds whitespace up to the first open bracket when indenting. Requires
+    // auto_indent to be enabled.
+    "indent_to_bracket": true,
+
+    // Additional spacing at the top of each line, in pixels
+    "line_padding_top": 0,
+
+    // Additional spacing at the bottom of each line, in pixels
+    "line_padding_bottom": 1,
+
+    // Trims white space added by auto_indent when moving the caret off the
+    // line.
+    "trim_automatic_white_space": true,
+
+    // Disables horizontal scrolling if enabled.
+    // May be set to true, false, or "auto", where it will be disabled for
+    // source code, and otherwise enabled.
+    "word_wrap": false,
+
+    // Set to a value other than 0 to force wrapping at that column rather than the
+    // window width
+    "wrap_width": 0,
+
+    // Set to false to prevent word wrapped lines from being indented to the same
+    // level
+    "indent_subsequent_lines": true,
+
+    // Draws text centered in the window rather than left aligned
+    "draw_centered": false,
+
+    // Controls auto pairing of quotes, brackets etc
+    "auto_match_enabled": true,
+
+    // Controls how the indent guides are drawn, valid options are
+    // "draw_normal" and "draw_active". draw_active will draw the indent
+    // guides containing the caret in a different color.
+    "indent_guide_options": ["draw_active"]
+}
